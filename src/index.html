@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Phonecat5</title>
+  <link rel="stylesheet" href="assets/app-js/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/app-js/app.css" />
+  <link rel="stylesheet" href="assets/app-js/app.animations.css" />
+
+  <script src="assets/app-js/bower_components/jquery/dist/jquery.js"></script>
+  <script src="assets/app-js/bower_components/angular/angular.js"></script>
+  <script src="assets/app-js/bower_components/angular-animate/angular-animate.js"></script>
+  <script src="assets/app-js/bower_components/angular-resource/angular-resource.js"></script>
+  <script src="assets/app-js/bower_components/angular-route/angular-route.js"></script>
+
+  <script src="assets/app-js/app.module.js"></script>
+  <script src="assets/app-js/app.config.js"></script>
+  <script src="assets/app-js/app.animations.js"></script>
+  <script src="assets/app-js/core/core.module.js"></script>
+  <script src="assets/app-js/core/checkmark/checkmark.filter.js"></script>
+  <!-- <script src="assets/app-js/core/phone/phone.module.js"></script>
+  <script src="assets/app-js/core/phone/phone.service.js"></script> -->
+  <script src="assets/app-js/phone-list/phone-list.module.js"></script>
+  <!-- <script src="assets/app-js/phone-list/phone-list.component.js"></script> -->
+  <script src="assets/app-js/phone-detail/phone-detail.module.js"></script>
+  <script src="assets/app-js/phone-detail/phone-detail.component.js"></script>
+
+
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <div class="view-container">
+    <div ng-view class="view-frame"></div>
+  </div>
+
+</body>
+
+</html>
